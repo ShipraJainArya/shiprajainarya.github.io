@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://www.shiprarealtors.com/sitemap-sr.xml
