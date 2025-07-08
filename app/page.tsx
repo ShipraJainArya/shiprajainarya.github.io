@@ -30,9 +30,9 @@ export default function Home() {
         <title>Shipra Realtors — Real Estate & Home Services</title>
         <meta
           name="description"
-          content="Shipra Realtors offers real estate consultancy in Mundhwa and Pune, with verified properties and doorstep services. Agreements, home repairs, and renting tools made easy."
+          content="Find your dream home in Mundhwa with Shipra Realtors. From verified listings to legally registered agreements and home services, we simplify real estate for you."
         />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="robots" content="index, follow" />
       </Head>
 
       <Navbar onNavClick={handleNavClick} />

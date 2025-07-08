@@ -15,7 +15,7 @@ export default function Hero() {
             in <span className="text-[#5c3a1e]">Mundhwa</span>
           </h1>
           <p className="text-[#5c3a1e] text-2xl">
-            With years of trusted expertise & recce, we bring you the best deals in real estate!
+            Trusted listings, expert help, and complete support—from agreements to after-sale services,<br /> This is real estate made easy!
           </p>
           <div className="space-x-4">
 
