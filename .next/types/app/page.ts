@@ -1,4 +1,4 @@
-// File: D:\Desktop\real-estate-site\app\page.tsx
+// File: D:\Desktop\fam\mummy\Shipra Realtors Website\real-estate-site\app\page.tsx
 import * as entry from '../../../app/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
