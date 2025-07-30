@@ -33,10 +33,10 @@ export const metadata = {
     siteName: "Shipra Realtors",
     images: [
       {
-        url: "/og-img.png", // Replace with your real OG image
-        width: 1202,
+        url: "https://www.shiprarealtors.com/og-wide.png", // Replace with your real OG image
+        width: 1200,
         height: 630,
-        alt: "Shipra Realtors - Buy/Sell/Rent in Pune",
+        alt: "Shipra Realtors - Verified & Premium Properties",
       },
     ],
     locale: "en_IN",
