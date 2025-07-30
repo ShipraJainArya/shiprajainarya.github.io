@@ -34,8 +34,8 @@ export const metadata = {
     images: [
       {
         url: "/og-img.png", // Replace with your real OG image
-        width: 1024,
-        height: 1024,
+        width: 1202,
+        height: 630,
         alt: "Shipra Realtors - Buy/Sell/Rent in Pune",
       },
     ],
