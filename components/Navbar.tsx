@@ -11,7 +11,11 @@ const dosis = Dosis({
   weight: ["400", "600"],
 });
 
-export default function Navbar() {
+type NavbarProps = {
+  onNavClick?: (section: string) => void;
+};
+
+export default function Navbar({ onNavClick }: NavbarProps) {
   const [isOpen, setIsOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
 
