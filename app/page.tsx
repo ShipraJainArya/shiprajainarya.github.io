@@ -27,20 +27,56 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Shipra Realtors — Real Estate & Home Services</title>
+        <title>
+          Shipra Realtors | Real Estate Consultants in Keshav Nagar & Mundwha (Buy/Sell/Rent)
+        </title>
         <meta
           name="description"
-          content="Find your dream home in Mundhwa with Shipra Realtors. From verified listings to legally registered agreements and home services, we simplify real estate for you."
+          content="Shipra Realtors is your trusted real estate consultancy in Keshav Nagar Mundhwa near Kharadi. We specialize in flats for rent and sale across top societies like Godrej Infinity, Florida Riverwalk, Mantra Insignia. From agreements to maintenance and home services, everything is handled directly — no third parties involved."
+        />
+        <meta
+          name="keywords"
+          content="Shipra Realtors,
+           Keshav Nagar Mundhwa flats, 
+           Godrej Infinity,
+           Florida Riverwalk, 
+           Mantra Insignia,
+           Kharadi flats, 
+           Mundhwa real estate, 
+           flat rentals Mundhwa, 
+           flat sales Keshav Nagar, 
+           doorstep agreements Pune, 
+           property maintenance Pune,
+           real estate agency Pune, 
+           real estate keshav nagar mundhwa,
+           buy sale keshav nagar mundhwa,
+           rent keshav nagar"
         />
         <meta name="robots" content="index, follow" />
+        <meta name="author" content="Shipra Realtors" />
+        <meta property="og:title" content="Shipra Realtors — Real Estate & Home Services in Keshav Nagar Mundhwa" />
+        <meta
+          property="og:description"
+          content="Buy, sell, or rent flats in Keshav Nagar Mundhwa & Kharadi with Shipra Realtors. From verified rentals and sales to agreements and maintenance, all handled seamlessly under one roof."
+        />
+        <meta property="og:type" content="website" />
+        <meta property="og:locale" content="en_IN" />
       </Head>
 
       <Navbar onNavClick={handleNavClick} />
       <main className="pt-40">
+        {/* Hero section introduces agency and target areas */}
         <Hero />
+
+        {/* Section for agreements (legal, rental, sales) */}
         <DoorstepAgreements />
+
+        {/* Section for flat maintenance, fittings, plumbing, electricians */}
         <HomeServices />
+
+        {/* Contact form / details */}
         <ContactUs />
+
         <Footer />
       </main>
     </>
