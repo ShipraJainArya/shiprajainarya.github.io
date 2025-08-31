@@ -21,28 +21,28 @@ export default function RentingTools() {
             download
             className="inline-block bg-[#8c6239] text-white px-6 py-3 rounded-lg shadow hover:bg-[#5c3a1e] transition mt-2"
           >
-            Download Undertaking Form
+            Tap to Download - Undertaking Form
           </a>
         </div>
 
          {/* Right: Editable Contacts */}
         <div>
           <h3 className="text-3xl font-bold mb-4 z-10">Your Speed Dial!</h3>
-          <div className="space-y-6">
+          <div className="space-y-7">
             <div className="bg-[#f9f8f6]  p-6 rounded-xl shadow border border-[#e0ddd9] text-lg mt-10 relative z - 10">
               <p className="font-bold text-xl ">Shipra Jain Arya</p>
-              <p className="text-gray-700">+91 97119 09677 | Founder and Chief Consultant</p>
+              <a href="tel:+919711909677" className="text-gray-700 hover:text-[#d8c6b1]"> +91 9711909677 | Founder & Chief Consultant </a>
             </div>
             <div className="bg-[#f9f8f6] p-6 rounded-xl shadow border border-[#e0ddd9] text-lg relative z - 10">
               <p className="font-bold text-xl">Security Office - Godrej Infinity</p>
-              <p className="text-gray-700">+91 91722 24307 | Move-in Queries / Security Clearances</p>
+              <a href="tel:+919172224307" className="text-gray-700 hover:text-[#d8c6b1]">+91 9172224307 | Move-in Queries & Security Clearances</a>
             </div>
             <div className="bg-[#f9f8f6] p-6 rounded-xl shadow border border-[#e0ddd9] text-lg relative z - 10 ">
-              <p className="font-bold text-xl">Shifting in and out of the society?</p>
-              <ul className="mt-2 space-y-1 text-gray-700 text-sm">
-                <li><strong>Help Desk:</strong> helpdesk@infinitychs.in</li>
-                <li><strong>Property Manager:</strong> propertymanager@infinitychs.in</li>
-                <li><strong>Managing Committee:</strong> mc@infinitychs.in</li>
+              <p className="font-bold text-xl">Shifting in or out of the society?</p>
+              <ul className="mt-2 space-y-1 text-gray-700">
+                <a href="mailto:helpdesk@infinitychs.in" className="text-gray-700 hover:text-[#d8c6b1]"><strong>Help Desk: </strong>helpdesk@infinitychs.in</a><br></br>
+                <a href="mailto:propertymanager@infinitychs.in" className="text-gray-700 hover:text-[#d8c6b1]"><strong>Property Manager: </strong>propertymanager@infinitychs.in</a><br></br>
+                <a href="mailto:mc@infinitychs.in" className="text-gray-700 hover:text-[#d8c6b1]"><strong>Managing Committee: </strong>mc@infinitychs.in</a>
               </ul>
             </div>
           </div>
