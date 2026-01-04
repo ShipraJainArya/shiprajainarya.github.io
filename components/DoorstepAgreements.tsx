@@ -8,7 +8,7 @@ const dosis = Dosis({
 
 export default function DoorstepAgreements() {
   return (
-    <section id="about" className={`py-20 bg-[#e1c08d] text-[#5c3a1e] ${dosis.className}`}>
+    <section className={`py-20 bg-[#e1c08d] text-[#2e2119] ${dosis.className}`}>
       <div className="max-w-6xl mx-auto px-6 text-center">
         <h2 className="text-6xl font-bold mb-10 mt-16">
           Doorstep Agreement Services
@@ -39,10 +39,10 @@ export default function DoorstepAgreements() {
 ].map(({ step, title, image }) => (
   <div
     key={step}
-    className="bg-[#5c3a1e] p-6 rounded-xl shadow-md border border-[#e0ddd9] z-[0] text-center"
+    className="bg-[#2e2119] p-6 rounded-xl shadow-md border border-[#e0ddd9] z-[0] text-center"
   >
     <div className="text-3xl font-bold mb-5 mt-3 text-white">Step {step}</div>
-    <p className="text-lg font-medium text-white">{title}</p>
+    <p className="text-2xl font-medium text-white">{title}</p>
     
     {/* Image below the card text */}
     <img

@@ -6,8 +6,7 @@ export default function Hero() {
   return (
     <section
       id="home"
-      className="bg-transparent py-14 relative overflow-hidden"
-      aria-label="Find homes for sale in Mundhwa"
+      className="bg-[# sale in Mundhwa"
     >
       {/* Watermark (fixed & centered) */}
       <img
@@ -21,9 +20,9 @@ export default function Hero() {
       <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between relative z-10">
         {/* Left Side (Text) */}
         <div className="md:w-1/2 space-y-8 text-center md:text-left">
-          <h1 className="text-5xl md:text-6xl font-bold text-[#8c6239] leading-tight">
-            Find Your Dream Home in{" "}
-            <span className="text-[#5c3a1e]">Mundhwa</span>
+          <h1 className="text-5xl md:text-6xl font-bold text-[#2e2119] leading-tight">
+            Find Your Dream Home in 
+            <span className="text-[#8c6239]"> Mundhwa</span>
           </h1>
           <p className="text-[#5c3a1e] text-lg md:text-xl max-w-xl mx-auto md:mx-0">
             Explore premium properties in Pune’s most promising locations with
@@ -35,13 +34,13 @@ export default function Hero() {
           {/* CTA Button */}
           <div className="mt-4">
             <Link href="/#contact">
-              <button className="px-6 py-3 bg-[#8c6239] text-white text-lg font-semibold rounded-2xl shadow-md hover:bg-[#704d2b] transition">
+              <button className="px-6 py-3 bg-[#2e2119] text-white text-lg font-semibold rounded-2xl shadow-md hover:bg-[#704d2b] transition">
                 Get a Free Consultation
               </button>
             </Link>
           </div>
 
-          <h2 className="text-2xl py-1 md:text-3xl font-semibold text-[#8c6239] mt-8">
+          <h2 className="text-2xl py-2 md:text-3xl font-semibold text-[#2e2119] mt-8">
             Why Choose Us?
           </h2>
           <p className="text-[#5c3a1e] text-base md:text-lg max-w-md mx-auto md:mx-0">

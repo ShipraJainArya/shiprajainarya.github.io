@@ -49,7 +49,7 @@ export default function Navbar({ onNavClick }: NavbarProps) {
       transition={{ duration: 0.4 }}
       className={`${dosis.className} fixed top-0 py-4 w-full z-50 transition-colors duration-300 ${
         scrolled
-          ? "bg-[#5c3a1e] text-[#ededd9] shadow-md"
+          ? "bg-[#302117] text-[#ededd9] shadow-md"
           : "bg-transparent text-black"
       }`}
     >

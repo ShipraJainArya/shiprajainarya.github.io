@@ -1,6 +1,6 @@
 export default function ContactUs() {
   return (
-    <section id = "contact" className="py-20 bg-[#e1c08d] text-center text-[#5c3a1e] font-inter">
+    <section id = "contact" className="py-20 bg-[#e1c08d] text-center text-[#2e2119] font-inter">
       <div className="max-w-5xl mx-auto px-6">
         <h2 className="text-5xl font-bold mb-6">Contact Us</h2>
         <p className="mb-12 text-2xl">Have questions or want to get started? Reach out to us directly.</p>
