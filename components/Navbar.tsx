@@ -38,6 +38,7 @@ export default function Navbar({ onNavClick }: NavbarProps) {
   const navLinks = [
     { name: "Home", href: "/" },
     { name: "About", href: "#about" },
+    { name: "Testimonials", href: "#testimonials" },
     { name: "Contact Us", href: "#contact" },
     { name: "Godrej Infinity", href: "/godrej-infinity" },
   ];
@@ -49,7 +50,7 @@ export default function Navbar({ onNavClick }: NavbarProps) {
       transition={{ duration: 0.4 }}
       className={`${dosis.className} fixed top-0 py-4 w-full z-50 transition-colors duration-300 ${
         scrolled
-          ? "bg-[#302117] text-[#ededd9] shadow-md"
+          ? "bg-[#1c1410] text-[#f5eee3] shadow-md"
           : "bg-transparent text-black"
       }`}
     >
@@ -100,7 +101,7 @@ export default function Navbar({ onNavClick }: NavbarProps) {
 
       {/* Mobile Dropdown */}
       {isOpen && (
-        <div className="md:hidden bg-[#5c3a1e] text-white py-3 px-3 pb-4 space-y-3 text-lg font-medium">
+        <div className="md:hidden bg-[#1c1410] text-[#f5eee3] py-3 px-3 pb-4 space-y-3 text-lg font-medium">
           {navLinks.map((link) =>
             link.href.startsWith("#") ? (
               <a

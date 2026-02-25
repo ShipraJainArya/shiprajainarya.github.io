@@ -1,16 +1,16 @@
 'use client';
 
-import { Quicksand, Lato } from 'next/font/google';
+import { Dosis, Lato } from 'next/font/google';
 
-const quicksand = Quicksand({ subsets: ['latin'], weight: ['600', '700'] });
+const dosis = Dosis({ subsets: ['latin'], weight: ['400', '600'] });
 const lato = Lato({ subsets: ['latin'], weight: ['400'] });
 
 export default function HomeServices() {
   const services = [
     {
-      name: 'Plumbing',
-      desc: 'From leaks to installations and upgrading appliances, get reliable plumbing help.',
-    },
+      name: 'Interior Decor',
+      desc: 'Bring artistic upscaling to your abode, complete with furniture and structural modifications',
+    }, 
     {
       name: 'Electricity',
       desc: 'Certified electricians for repairs and upgrades, one stop to all hassles.',
@@ -24,19 +24,19 @@ export default function HomeServices() {
       desc: 'Fix locks, handles, or setup new fittings hassle-free.',
     },
     {
-      name: 'Interior Decor',
-      desc: 'Bring artistic upscaling to your abode, complete with furniture and structural modifications',
-    },
+      name: 'Plumbing',
+      desc: 'From leaks to installations and upgrading appliances, get reliable plumbing help.',
+    }
   ];
 
   return (
-    <section id="about" className="py-20 bg-[#2e2119] text-[#ededd9] text-center">
+    <section id="about" className="py-20 bg-[#1c1410] text-[#f5eee3] text-center">
       <div className="max-w-10xl mx-auto px-6">
-        <h2 className={`text-5xl font-bold mb-6 ${quicksand.className}`}>
+        <h2 className={`text-4xl md:text-5xl lg:text-6xl font-semibold mb-6 ${dosis.className}`}>
           Home Services at Your Fingertips
         </h2>
 
-        <p className={`text-lg mb-12 py-5 ${lato.className}`}>
+        <p className={`text-lg md:text-xl mb-12 py-5 text-[#e0d4c2]/90 ${lato.className}`}>
           We've partnered with verified professionals to bring essential home services directly to your doorstep.
         </p>
 
@@ -47,10 +47,15 @@ export default function HomeServices() {
                 key={`${name}-${index}`}
                 className="service-card"
               >
-                <h3 className={`text-lg font-bold mb-3 ${quicksand.className}`}>
+                <div className="flex items-center justify-center mb-4">
+                  <span className="inline-flex items-center justify-center w-9 h-9 rounded-full bg-[#2e2119] text-[#f5c75b] text-sm font-semibold shadow-sm">
+                    {index + 1}
+                  </span>
+                </div>
+                <h3 className={`text-lg md:text-xl font-semibold mb-3 ${dosis.className}`}>
                   {name}
                 </h3>
-                <p className={`text-[1rem] leading-relaxed ${lato.className}`}>
+                <p className={`text-[0.95rem] md:text-base leading-relaxed text-[#2e2119]/90 ${lato.className}`}>
                   {desc}
                 </p>
               </div>
@@ -82,12 +87,12 @@ export default function HomeServices() {
 
         .marquee-wrapper::before {
           left: 0;
-          background: linear-gradient(to right, #2e2119, transparent);
+          background: linear-gradient(to right, #1c1410, transparent);
         }
 
         .marquee-wrapper::after {
           right: 0;
-          background: linear-gradient(to left, #2e2119, transparent);
+          background: linear-gradient(to left, #1c1410, transparent);
         }
 
         .marquee-track {
@@ -104,14 +109,22 @@ export default function HomeServices() {
 
         .service-card {
           width: 220px;
-          min-height: 180px;
-          background: #e1c08d;
+          min-height: 190px;
+          background: radial-gradient(circle at top left, #f7e1b3, #e1c08d);
           color: #2e2119;
-          padding: 1.75rem 1.25rem;
-          border-radius: 0.75rem;
-          border: 1px solid #8c6239;
-          box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+          padding: 1.75rem 1.5rem 1.9rem;
+          border-radius: 0.9rem;
+          border: 1px solid #c49b63;
+          box-shadow: 0 6px 18px rgba(0, 0, 0, 0.18);
           flex-shrink: 0;
+          transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease, background 0.2s ease;
+        }
+
+        .service-card:hover {
+          transform: translateY(-6px);
+          box-shadow: 0 12px 26px rgba(0, 0, 0, 0.24);
+          border-color: #f5c75b;
+          background: radial-gradient(circle at top left, #ffe2a8, #e8c892);
         }
 
         @keyframes marquee {
