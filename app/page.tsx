@@ -7,6 +7,7 @@ import Hero from '../components/Hero';
 import Footer from '../components/Footer';
 import DoorstepAgreements from '../components/DoorstepAgreements';
 import HomeServices from '../components/HomeServices';
+import Testimonials from '../components/Testimonials';
 import ContactUs from '../components/ContactUs';
 
 export default function Home() {
@@ -73,6 +74,9 @@ export default function Home() {
 
         {/* Section for flat maintenance, fittings, plumbing, electricians */}
         <HomeServices />
+
+        {/* Testimonials from clients */}
+        <Testimonials />
 
         {/* Contact form / details */}
         <ContactUs />
