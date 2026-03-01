@@ -1,27 +1,40 @@
 {
   "pages": {
-    "/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/page.css",
-      "static/chunks/app/page.js"
+    "/_not-found/page": [
+      "static/chunks/webpack-bd96dca80059e12b.js",
+      "static/chunks/fd9d1056-b11b2651f33aae7f.js",
+      "static/chunks/117-ba4175ec17a0f11b.js",
+      "static/chunks/main-app-f46ef8eef9fcbcae.js",
+      "static/chunks/app/_not-found/page-221ef7203edcd7a2.js"
     ],
     "/layout": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/layout.css",
-      "static/chunks/app/layout.js"
+      "static/chunks/webpack-bd96dca80059e12b.js",
+      "static/chunks/fd9d1056-b11b2651f33aae7f.js",
+      "static/chunks/117-ba4175ec17a0f11b.js",
+      "static/chunks/main-app-f46ef8eef9fcbcae.js",
+      "static/css/5e9bee0b96dc86c3.css",
+      "static/chunks/app/layout-3dbc3ea5c4bef7de.js"
+    ],
+    "/page": [
+      "static/chunks/webpack-bd96dca80059e12b.js",
+      "static/chunks/fd9d1056-b11b2651f33aae7f.js",
+      "static/chunks/117-ba4175ec17a0f11b.js",
+      "static/chunks/main-app-f46ef8eef9fcbcae.js",
+      "static/css/d6120054e90fbbcf.css",
+      "static/css/373330d6db66be1d.css",
+      "static/chunks/826-a84a09027af02197.js",
+      "static/chunks/382-d9fc023295181135.js",
+      "static/chunks/app/page-b279f82fc706b151.js"
     ],
     "/godrej-infinity/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/godrej-infinity/page.css",
-      "static/chunks/app/godrej-infinity/page.js"
-    ],
-    "/_not-found/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/_not-found/page.js"
+      "static/chunks/webpack-bd96dca80059e12b.js",
+      "static/chunks/fd9d1056-b11b2651f33aae7f.js",
+      "static/chunks/117-ba4175ec17a0f11b.js",
+      "static/chunks/main-app-f46ef8eef9fcbcae.js",
+      "static/css/230604d75395b28f.css",
+      "static/css/d6120054e90fbbcf.css",
+      "static/chunks/826-a84a09027af02197.js",
+      "static/chunks/app/godrej-infinity/page-836fa459ddc574de.js"
     ]
   }
 }

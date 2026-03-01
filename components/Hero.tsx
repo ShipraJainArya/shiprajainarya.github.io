@@ -46,7 +46,7 @@ export default function Hero() {
     visible: {
       opacity: 1,
       y: 0,
-      transition: { duration: 0.8, ease: [0.16, 1, 0.3, 1] },
+      transition: { duration: 0.8, ease: [0.16, 1, 0.3, 1] as [number, number, number, number] },
     },
   };
 
@@ -146,7 +146,7 @@ export default function Hero() {
         <motion.div
           initial={{ opacity: 0, x: 50 }}
           animate={{ opacity: 1, x: 0 }}
-          transition={{ duration: 1, delay: 0.3, ease: [0.16, 1, 0.3, 1] }}
+          transition={{ duration: 1, delay: 0.3, ease: [0.16, 1, 0.3, 1] as [number, number, number, number] }}
           className="w-full md:w-[45%] relative z-10 flex flex-col items-center justify-center mt-8 md:mt-0"
         >
           <div className="relative group w-full max-w-[480px] lg:max-w-[550px]">
