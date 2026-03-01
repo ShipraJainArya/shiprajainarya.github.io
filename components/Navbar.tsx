@@ -209,7 +209,7 @@ export default function Navbar({ onNavClick, hideOnScroll = false, forceTheme = 
               'bg-[#1c1410]/95 border-t border-[#f5c75b]/20 text-[#f5eee3]'}`
         }>
           {navLinks.map((link) => (
-            <div key={link.name} className="relative inline-block group w-max mb-1">
+            <div key={link.name} className="relative block group w-max mb-1">
               {link.href.startsWith("#") ? (
                 <a
                   href={link.href}
