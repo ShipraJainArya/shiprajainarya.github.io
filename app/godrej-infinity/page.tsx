@@ -21,8 +21,8 @@ export default function ListingsPage() {
   };
 
   return (
-    <div className="pt-40">
-      <Navbar onNavClick={handleNavClick}  />
+    <div className="min-h-screen bg-[#e1c08d]">
+      <Navbar onNavClick={handleNavClick} hideOnScroll={true} forceTheme="godrej" />
       <RentingTools />
     </div>
   );

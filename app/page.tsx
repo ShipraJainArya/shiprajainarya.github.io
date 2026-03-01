@@ -9,6 +9,7 @@ import DoorstepAgreements from '../components/DoorstepAgreements';
 import HomeServices from '../components/HomeServices';
 import Testimonials from '../components/Testimonials';
 import ContactUs from '../components/ContactUs';
+import FloatingContactButton from '../components/FloatingContactButton';
 
 export default function Home() {
   const [showRenting, setShowRenting] = useState(false);
@@ -65,7 +66,7 @@ export default function Home() {
       </Head>
 
       <Navbar onNavClick={handleNavClick} />
-      <main className="pt-40">
+      <main className="">
         {/* Hero section introduces agency and target areas */}
         <Hero />
 
@@ -82,6 +83,9 @@ export default function Home() {
         <ContactUs />
 
         <Footer />
+        
+        {/* Floating WhatsApp Button */}
+        <FloatingContactButton />
       </main>
     </>
   );

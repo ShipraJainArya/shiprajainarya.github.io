@@ -10,7 +10,7 @@ export default function HomeServices() {
     {
       name: 'Interior Decor',
       desc: 'Bring artistic upscaling to your abode, complete with furniture and structural modifications',
-    }, 
+    },
     {
       name: 'Electricity',
       desc: 'Certified electricians for repairs and upgrades, one stop to all hassles.',
@@ -30,7 +30,7 @@ export default function HomeServices() {
   ];
 
   return (
-    <section id="about" className="py-20 bg-[#1c1410] text-[#f5eee3] text-center">
+    <section id="about" className="pt-32 pb-20 bg-[#1c1410] text-[#f5eee3] text-center">
       <div className="max-w-10xl mx-auto px-6">
         <h2 className={`text-4xl md:text-5xl lg:text-6xl font-semibold mb-6 ${dosis.className}`}>
           Home Services at Your Fingertips
